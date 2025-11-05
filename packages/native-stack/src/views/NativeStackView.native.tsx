@@ -178,6 +178,7 @@ const SceneView = ({
 
   return (
     <Screen
+      {...options}
       key={route.key}
       enabled
       style={StyleSheet.absoluteFill}
